@@ -1,0 +1,22 @@
+.topside {
+    width: 100%;
+    min-height: 1589px;
+    // background: url('../../assets/images/headimg.png');
+    background-color: black;
+    background-size: cover;
+    background-attachment:fixed;
+    .topside-wrapper {
+        max-width: 1536px;
+        height: 768px;
+        background-color: rgba(0,0,0,0.7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        .header-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

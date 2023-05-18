@@ -1,0 +1,212 @@
+@import './app.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;600;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  font-family: 'Noto Sans Display', sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+
+.main.salon {
+    input {
+    color: $salon-content ;
+    }
+    input::placeholder {
+    color: $salon-content ;
+    }
+    input:focus {
+      outline: 1px solid $salon-content;
+    }
+    h1 {
+      color: $salon-content;
+    }
+    h2 {
+      color: $salon-content;
+    }
+    h5 {
+      color: $salon-content;
+    }
+    li:hover {
+      color: $salon-content;
+    }
+    span {
+      color: $salon-content;
+    }
+    button {
+      background-color: $salon-content;
+    }
+    button:hover {
+      background-color: $salon-hover;
+    }
+    .location-wrapper {
+      border-color: $salon-content;
+    }
+    .exp-span {
+      background-color: $salon-content;
+    }
+    .navigation {
+      button {
+        border-color: $salon-content;
+        * {
+          color: $salon-content;
+        }
+      }
+      button:hover {
+        border-color: $salon-content;
+      }
+      button::before {
+        border-color: $salon-content;
+      }
+    }
+    .us-content-wrapper {
+      * {
+        color: $salon-content;
+      }
+    }
+    .slogan-mid {
+      background-color: $salon-content;
+    }
+    .header-h1 {
+      color: $salon-content;
+    }
+    .Sleft {
+      border-color: $salon-content;
+    }
+    .Sright {
+      border-color: $salon-content;
+    }
+    .divider {
+      .d-mid {
+        background-color: $salon-content;
+      }
+      .d-right {
+        background: linear-gradient(to left, $salon-content 0%, transparent 100%);
+      }
+      .d-left {
+        background: linear-gradient(to right, $salon-content 0%, transparent 100%);
+      }
+    }
+    .nav-item:hover {
+      color: $salon-content;
+    }
+    .nav-item::before {
+      background-color: $salon-content;
+    }
+}
+.main.clinic {
+  input {
+    color: $clinic-content ;
+    }
+    input::placeholder {
+    color: $clinic-content ;
+    }
+    input:focus {
+      outline: 1px solid $clinic-content;
+    }
+    h1 {
+      color: $clinic-content;
+    }
+    h2 {
+      color: $clinic-content;
+    }
+    h5 {
+      color: $clinic-content;
+    }
+    li:hover {
+      color: $clinic-content;
+    }
+    span {
+      color: $clinic-content;
+    }
+    button {
+      background-color: $clinic-content;
+    }
+    button:hover {
+      background-color: $clinic-hover;
+    }
+    .location-wrapper {
+      border-color: $clinic-content;
+    }
+    .exp-span {
+      background-color: $clinic-content;
+    }
+    .navigation {
+      button {
+        border-color: $clinic-content;
+        * {
+          color: $clinic-content;
+        }
+      }
+      button:hover {
+        border-color: $clinic-content;
+      }
+      button::before {
+        border-color: $clinic-content;
+      }
+    }
+    .us-content-wrapper {
+      * {
+        color: $clinic-content;
+      }
+    }
+    .slogan-mid {
+      background-color: $clinic-content;
+    }
+    .header-h1 {
+      color: $clinic-content;
+    }
+    .Sleft {
+      border-color: $clinic-content;
+    }
+    .Sright {
+      border-color: $clinic-content;
+    }
+    .divider {
+      .d-mid {
+        background-color: $clinic-content;
+      }
+      .d-right {
+        background: linear-gradient(to left, $clinic-content 0%, transparent 100%);
+      }
+      .d-left {
+        background: linear-gradient(to right, $clinic-content 0%, transparent 100%);
+      }
+    }
+    .nav-item:hover {
+      color: $clinic-content;
+    }
+    .nav-item::before {
+      background-color: $clinic-content;
+    }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.mainP {
+  width: 100%;
+  background-color: black;
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-color: black;
+}

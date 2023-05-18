@@ -1,0 +1,86 @@
+.exper {
+    margin-top: 500px;
+    width: 100%;
+    height: 768px;
+    background-image: url('https://i.pinimg.com/originals/07/04/d3/0704d31497d151fd1024d6bd6577620b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .exper-wrapper {
+        width: 97%;
+        height: 100%;
+        background-color: #3C3C3C;
+        opacity: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .exp-left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            gap: 70px;
+            .exp-text-wrapper {
+                max-width: 550px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                h2 {
+                }
+                .exp-span {
+                    width: 20%;
+                    height: 2px;
+                }
+                h5 {
+                    color: #fff;
+                }
+                p {
+                    color: #fff;
+                }
+            }
+            .exp-additional-wrapper {
+                height: 170px;
+                display: flex;
+                // flex-direction: row;
+                justify-content: center;
+                align-items: flex-end;
+                gap: 40px;
+                .exp-icon {
+                    max-width: 100px;
+                    height: 120px;
+                    display: inline-block;
+                    box-sizing: content-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    gap: 10px;
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        object-fit:contain;
+                    }
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .exp-right {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            img {
+                width: 70%;
+
+            }
+        }
+    }
+}

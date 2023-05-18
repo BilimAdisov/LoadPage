@@ -1,0 +1,63 @@
+.portfolio {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    .portfolio-wrapper {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .port-h1 {
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        .port-phara {
+            margin-top: 30px;
+            margin-bottom: 100px;
+            text-align: center;
+            color: white;
+            width: 400px;
+        }
+        .pcard-place {
+            width: 100%;
+            margin-bottom: 50px;
+            .port-card {
+                width: 100%;
+                background-color: #3C3C3C;
+                height: 585px;
+                border-radius: 24px;
+                overflow: hidden;
+                .port-card-wrapper {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        transform: translateY(-35px);
+                    }
+                    h5 {
+                        font-size: 20px;
+                        color: whitesmoke;
+                    }
+                    span {
+                        margin: 7px 0;
+                    }
+                    ul {
+                        float: left;
+                        margin-bottom: 15px;
+                        
+                        li {
+                            color: whitesmoke;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

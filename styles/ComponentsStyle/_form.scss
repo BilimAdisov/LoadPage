@@ -1,0 +1,41 @@
+.form {
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        h1 {
+            font-size: 36px;
+        }
+        .form-mail {
+            width: 500px;
+            height: 70px;
+            border-radius: 8px;
+            background-color: rgba(0,0,0,0.6);
+            font-size: 28px;
+            padding-left: 10px;
+            transition: 0.3s ease-in-out;
+
+        }
+        .form-pass {
+            width: 500px;
+            height: 70px;
+            border-radius: 8px;
+            background-color: rgba(0,0,0,0.6);
+            font-size: 28px;
+            padding-left: 10px;
+            transition: 0.3s ease-in-out;
+
+        }
+        .form-btn {
+            width: 500px;
+            height: 70px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+}
